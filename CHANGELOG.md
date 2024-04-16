@@ -1,5 +1,26 @@
 # Changelog
 
+## Unreleased
+
+### Added
+
+- Add support for scoped routes with `default_url_options` (#209)
+
+### Fixed
+
+- Use flash.alert of flash[:error] (#215)
+
+## 1.5.0
+
+### Changed
+
+- Evaluate callable redirects in context of controller (#203)
+
+### Added
+
+- Add url_options param to sign_in email (#208)
+- Include TestHelpers in ActionDispatch::IntegrationTest (#211)
+
 ## 1.4.0
 
 ### Changed
